@@ -13,6 +13,7 @@ body {
     background-color: #fff;
     max-height: 300px;
     overflow-y: scroll;
+    scrollbar-width: thin;
 }
 
 .accordion-header {
@@ -43,6 +44,7 @@ body {
     border-top: none;
     overflow-y: scroll;
     max-height: 200px;
+    scrollbar-width: thin;
 }
 
 .accordion-content p {
