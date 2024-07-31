@@ -9,17 +9,21 @@ body {
     text-align: center;
     color: darkred;
 }
+
 .accordion {
     max-width: 600px;
     margin: 0 auto;
     border: 1px solid #ddd;
-    border-radius: 5px;
     background-color: #fff;
 }
 
 .accordion-header {
     margin: 0;
     border-bottom: 1px solid #ddd;
+}
+
+.accordion-header:last-of-type {
+    border-bottom: none;
 }
 
 .accordion-header button {
