@@ -11,6 +11,8 @@ body {
     border: 1px solid #ddd;
     border-radius: 5px;
     background-color: #fff;
+    max-height: 300px;
+    overflow-y: scroll;
 }
 
 .accordion-header {
@@ -40,7 +42,7 @@ body {
     padding: 15px;
     border-top: none;
     overflow-y: scroll;
-    max-height: 300px;
+    max-height: 200px;
 }
 
 .accordion-content p {
